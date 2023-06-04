@@ -24,9 +24,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 50vw;
-  left: 50vh;
-  transform: translate(-50%, -50%);
+  margin-left: 20px;
 }
 
 .row > * {

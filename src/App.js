@@ -40,7 +40,8 @@ function App() {
     <div className="App">
       <div className="renderTime">
         <div>
-          {renderTime && renderTime}
+          Render time (appr.):<br/>
+          {renderTime && renderTime} ms.
         </div>
       </div>
       <LongRender/>

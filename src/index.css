@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.renderTime {
+  position: fixed;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50vw;
+  left: 50vh;
+  transform: translate(-50%, -50%);
+}
+
+.row > * {
+  padding: 3px;
+  font-size: 5px;
+  min-width: 10px;
+  min-height: 10px;
+  max-width: 10px;
+  max-height: 10px;
+}
